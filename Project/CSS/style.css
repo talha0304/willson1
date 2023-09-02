@@ -1,0 +1,604 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none !important;
+}
+
+:root {
+    --mainOrangeColor: #CF292C;
+}
+
+/* banner start */
+#banner p {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/* banner start */
+
+/* nav bar start */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+
+}
+
+.logo a {
+    font-size: 40px;
+    text-decoration: none;
+    color: var(--mainOrangeColor);
+}
+
+.logo h1 {
+    margin-left: 20px;
+
+
+}
+
+.logo p {
+    color: black;
+    margin-left: 25px;
+    margin-top: -20px;
+
+}
+
+header>nav>ul {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+
+header>nav>ul>li {
+    margin: 0px 10px;
+}
+
+header>nav>ul>li>a {
+
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    transition: ease-in-out 200ms;
+}
+
+header>nav>ul>li>a:hover {
+    color: var(--mainOrangeColor)
+}
+
+.mobileMenuIcon {
+    font-size: 35px;
+
+    color: black;
+    background-color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+    transition: ease-in-out 100ms;
+}
+
+
+.mobileMenuIcon:hover {
+    color: var(--mainOrangeColor);
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 400ms ease-in-out;
+}
+
+/* nav bar end */
+
+
+
+/* search bar start */
+
+#search {
+    padding: 10px;
+}
+
+.searchstyle {
+    padding: 10px;
+    width: 500px;
+    border: 5px solid black;
+
+}
+
+/* search bar end */
+
+
+/* home page silder style and details */
+
+.slidertext {
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #101820;
+    color: white;
+    border-top: 10px solid #CF292C;
+
+
+}
+
+.sliderimg {
+    background-image: url(https://www.wilson.com/sites/default/files/styles/none/public/23-0648_.com_NBA_Banners_BK_WB_1.jpg?);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-top: 10PX solid #CF292C;
+
+}
+
+/* home page  silder style and details */
+
+/* contant section start */
+#contantsection {
+    margin-top: 20px;
+}
+
+#contantsection h1 {
+
+    text-align: center;
+    font-size: 50px;
+
+}
+
+#contantsection p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+.categoryContainer {
+    display: flex !important;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.itemstyle {
+    margin-top: 30px;
+    /* display: inline-block; */
+    /* padding: 20px; */
+    text-align: center;
+
+
+}
+
+.itemstyle img {
+    height: 300px;
+    width: 300px;
+}
+
+
+
+.itemstyle a {
+    text-decoration: none;
+    color: black;
+}
+
+.bottomtext {
+    margin-top: 8%;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* contant section end */
+
+
+
+
+
+/* BRAND section start */
+#brandsection {
+    background-color: black;
+    margin-top: 15px;
+}
+
+
+.brandimg {
+    background-image: url('https://www.uidownload.com/files/436/815/784/sports-brand-logo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+
+
+}
+
+.txtBrand {
+    width: 50%;
+    float: right;
+}
+
+.bdtext {
+    color: var(--mainOrangeColor);
+    padding-top: 12%;
+    font-size: 50px;
+    text-decoration: underline white;
+}
+
+.dbtextp {
+    color: var(--mainOrangeColor);
+    font-size: 30px;
+    text-decoration: underline white;
+}
+
+#brandsection button {
+    padding: 20px 40px;
+    color: black;
+    background-color: var(--mainOrangeColor);
+    border: 5px solid black;
+    transition: ease-in-out 300ms;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+#brandsection button:hover {
+    color: black;
+    background-color: white;
+}
+
+/* BRAND section end */
+
+
+
+
+/* sing up section start */
+#singup {
+    background-color: #101820;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.singuplogo h1 {
+    color: white;
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+
+.singupP {
+    margin-right: 100PX;
+    margin-top: 40PX;
+    color: white;
+
+}
+
+#singup button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    margin-right: 40px;
+    background-color: var(--mainOrangeColor);
+    border: 5px solid #101820;
+    color: white;
+    font-size: larger;
+    transition: ease-in-out 300ms;
+}
+
+#singup button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
+
+/* sing up section end */
+
+
+
+
+/* FOOTER SECTION */
+#footer {
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer h3 {
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: auto;
+}
+
+#footer p {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: auto;
+}
+
+#footer a i {
+    padding: auto;
+    color: black;
+    padding-left: 27px;
+    padding-top: 15px;
+    transition: ease-in-out 300ms;
+}
+
+
+#footer a i:hover {
+    color: red;
+}
+
+
+
+/* FOOTER SECTION */
+
+
+/* --------------------------------------CATEGORY SECTION------------------------------------------- */
+#categories-style {
+    margin-top: 70px;
+    text-align: center;
+}
+
+#categories-style h1 {
+    font-size: 70px;
+    color: black;
+    text-decoration: underline var(--mainOrangeColor);
+}
+
+#categories-style p {
+    font-size: 30px;
+    color: black;
+    margin-top: 10px;
+}
+
+
+.categories-style-IMG-TXT {
+    margin-top: 60px;
+    margin-left: 75px;
+}
+
+.BODER-STYLE {
+    display: inline-block;
+    border: 10px solid #101820;
+    /* margin: 20px 20px 40px 40px; */
+    margin: 10px 20px;
+    background-color: #101820;
+    color: white;
+    text-decoration: underline white;
+    text-align: center;
+
+}
+
+.BODER-STYLE img {
+    height: 160px;
+}
+
+.bannerImg img {
+    width: 100%;
+    height: 700px;
+    border-bottom: #CF292C 20px solid;
+}
+
+
+/* --------------------------------------CATEGORY SECTION end------------------------------------------- */
+/* --------------------------------------CATEGORY cards START------------------------------------------- */
+.CategoryCards {
+    width: 300px !important;
+    margin-top: 30px;
+    text-align: center;
+    color: var(--mainOrangeColor);
+
+}
+
+.CategoryCards img {
+    border: 20px solid #101820;
+}
+
+.CategoryCards h2 {
+    margin-top: 20px;
+    color: #CF292C;
+}
+
+.CategoryCards img {
+    height: 300px;
+    width: 300px;
+}
+
+.BannerText h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    background-color: #101820;
+    border-bottom: 10px solid #CF292C;
+    border-top: 10px solid #CF292C;
+}
+
+
+.BannerText a p {
+    text-align: left !important;
+}
+
+.cardDescription {
+    text-align: left;
+    color: var(--mainOrangeColor);
+    margin-top: 10px;
+
+}
+
+.cardPrice {
+    text-align: left;
+    color: var(--mainOrangeColor);
+    font-size: 30px;
+}
+
+.cardBtn {
+    padding: 10px 25px;
+    cursor: pointer;
+    background-color: var(--mainOrangeColor);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+/* --------------------------------------CATEGORY cards END ------------------------------------------- */
+
+
+
+/* -----------------------------------------sing up section------------------------------------------- */
+#formmainsection {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.form-text {
+    font-size: 30px;
+
+}
+
+
+.form-style {
+    margin-top: 15px;
+}
+
+.formstyle-section {
+
+    padding-top: 15px;
+}
+
+.inputstyle {
+    padding: 10px;
+}
+
+.inputstyle label {
+    font-size: large;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.inputstyle button {
+    padding: 5px 50px;
+    font-size: larger;
+}
+
+.inputstyle input {
+    padding: 5px 100px;
+    text-align: center;
+    border-radius: 5px;
+    border: 5px solid #101820;
+}
+
+.input-styl {
+    padding: 10px 10px;
+    font-size: large;
+}
+
+.input-stylBtn{
+    display: flex;
+    /* background-color: #CF292C; */
+    align-items: center;
+    justify-content: center;
+}
+
+.input-stylBtn button {
+    padding: 5px 40px;
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+    background-color: #CF292C;
+    color: #101820;
+    border: 2px solid white;
+    font-size: 15px;
+}
+
+
+.input-styl button:hover {
+    background-color: #101820;
+    color: #CF292C;
+}
+
+/* -----------------------------------------sing up section------------------------------------------- */
+
+/* ------------------------------------------log in ----------------------------------------------------- */
+.log-form-style {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.log-form-style form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+.log-style {
+    /* padding: 20px; */
+    display: flex;
+    margin: 10px 0px;
+    font-size: 25px;
+}
+
+.log-style label {
+    width: 140px;
+}
+
+.log-style input {
+    padding: 5px 100px;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    border: 5px solid #101820;
+}
+
+
+.log-button button {
+    padding: 5px 40px;
+    cursor: pointer;
+    transition: ease-in-out 300ms;
+    background-color: #CF292C;
+    color: #101820;
+    border: 2px solid white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-button button:hover {
+    background-color: #101820;
+    color: #CF292C;
+}
+
+/* ------------------------------------------log in ----------------------------------------------------- */
+
+
+#brands-h1 {
+    text-align: center;
+    color: #101820;
+    font-size: 25px;
+    margin-top: 20px;
+
+}

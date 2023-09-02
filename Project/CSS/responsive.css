@@ -1,0 +1,220 @@
+.mobileMenu {
+    display: none;
+}
+
+/* nav bar section */
+@media (min-width:0px) and (max-width:850px) {
+
+    header {
+        align-items: start;
+    }
+
+    .mobileMenu {
+        display: block;
+    }
+
+    nav {
+        order: -1;
+        flex-direction: column;
+        width: auto;
+        padding: 15px;
+
+    }
+
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    button {
+        display: block;
+        margin: 20px 0px !important;
+    }
+
+    nav ul li {
+        margin: 20px 0px !important;
+    }
+
+    .hide {
+        position: relative;
+        right: 150px;
+
+    }
+
+    .show {
+        right: 0;
+
+    }
+
+    .logo {
+        position: relative;
+        right: 40px;
+    }
+
+
+    .log-style label {
+        width: 80px;
+        font-size: 16px;
+    }
+    
+    .log-style input {
+        width: 80px;
+    }
+
+
+}
+
+
+@media (min-width:850px) and (max-width:950px) {
+    header>nav>ul>li>a {
+        font-size: 12px;
+    }
+
+
+
+
+}
+
+@media (min-width:0px) and (max-width:290px) {
+    .logo a {
+        font-size: 30px;
+
+
+    }
+
+    .logo p {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+
+
+    .logo {
+        margin-top: 40px;
+    }
+
+
+}
+
+/* nav bar section */
+
+/* search bar */
+@media (min-width:0px) and (max-width:850px) {
+    .searchstyle {
+        width: 350px;
+    }
+}
+
+@media (min-width:0px) and (max-width:290px) {
+    .searchstyle {
+        width: 260px;
+    }
+
+}
+
+
+/* search bar */
+
+/* brands section */
+@media (min-width:0px) and (max-width:850px) {
+    #brandsection {
+        height: 730px;
+        margin: auto;
+    }
+
+
+    .bdtext {
+        font-size: 15px;
+        padding-top: 120%;
+
+
+    }
+
+    .dbtextp {
+        font-size: 17px;
+        margin-right: 10px;
+    }
+
+    #brandsection button {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-top: -50%;
+    }
+}
+
+/* brands section */
+
+/* sin up */
+@media (min-width:0px) and (max-width:850px) {
+    .singuplogo h1 {
+        font-size: 15px;
+        padding: 20px;
+
+    }
+
+    .singupP {
+        font-size: 10px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+
+    #singup button {
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+
+    #singup a {
+        margin-top: 40px;
+    }
+
+    /* categoryContainer */
+
+    .categoryContainer {
+        flex-direction: column;
+
+    }
+
+}
+
+/* sin up */
+
+
+/* footer */
+@media (min-width:0px) and (max-width:850px) {
+    #footer {
+        padding: auto;
+
+    }
+
+    #footer h3 {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: auto;
+    }
+
+    #footer p {
+        font-size: 8px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #footer a i {
+        margin-left: -25px;
+        padding: auto;
+    }
+}
+
+/* footer */
+
+
+
+
+
+/* --------------------------------------CATEGORY SECTION------------------------------------------- */
+@media (min-width:0px) and (max-width:850px){
+    .bannerImg img{
+        height: 250px;
+    }
+}
+/* --------------------------------------CATEGORY SECTION------------------------------------------- */
